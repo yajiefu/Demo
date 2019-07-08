@@ -3,6 +3,7 @@ package Interview.study.map;
 import org.junit.Test;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 一、Map的实现类的结构
@@ -199,7 +200,10 @@ public class MapTest {
         map.put(123,"aa");
         map.put(21,"ee");
         map.put(321,"cc");
-        System.out.println(map);
+
+
+
+
 
     }
 }
